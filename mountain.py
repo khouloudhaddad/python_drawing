@@ -93,4 +93,15 @@ forward(80)
 right(150)
 forward(50)
 left(70)
-end_fill()        
+end_fill()
+
+left(50)
+
+# Sun
+penup()
+goto(-500, 350)
+pendown()
+color("yellow")
+begin_fill()
+circle(125)
+end_fill()
