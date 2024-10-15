@@ -105,3 +105,76 @@ color("yellow")
 begin_fill()
 circle(125)
 end_fill()
+
+# Tree
+def tree():
+    # Tree trunk
+    color ("saddlebrown")
+    begin_fill()
+    for i in range(2):
+        forward(40)
+        left(90)
+        forward(10)
+        left(90)
+    end_fill()
+    
+    # Turn the turtle around
+    forward(10)
+    left(90)
+    forward(5)
+    
+    # Leaves on tree
+    color("forestgreen")
+    begin_fill()
+    circle(25)
+    end_fill()
+    
+    right(90)
+ 
+# Plant the first tree
+    
+penup()
+goto (-25,-200)
+pendown()
+tree()
+    
+# Plant the second tree     
+penup()
+goto (200,-150)
+pendown()
+tree()   
+    
+# Plant the second tree     
+penup()
+goto (300,-250)
+pendown()
+tree()       
+    
+# Plant the third tree     
+penup()
+goto (300,-250)
+pendown()
+tree()    
+    
+# Plant the fourth tree     
+penup()
+goto (-300,-250)
+pendown()
+tree()    
+    
+# Plant the fifth tree     
+penup()
+goto (-200,-100)
+pendown()
+tree()    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
