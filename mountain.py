@@ -168,7 +168,7 @@ goto (-200,-100)
 pendown()
 tree()    
     
-    
+hideturtle()   
     
     
     
