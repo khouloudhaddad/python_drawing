@@ -1,5 +1,5 @@
 import turtle
-colors = ["pink", "yellow", "blue", "green", "white", "red"]
+colors = ["purple", "yellow", "blue", "green", "white", "red"]
 sketch = turtle.Pen()
 turtle.bgcolor("black")
 for i in range(200):
